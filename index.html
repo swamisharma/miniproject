@@ -21,7 +21,7 @@
                     <p>Code Blogger</p>
                 </div>
             </a>
-            <div class="nav-links non-display" id="navLinks">
+            <div class="nav-links" id="navLinks">
                 <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.html">HOME</a></li>
@@ -151,11 +151,9 @@
         var navLinks = document.getElementById("navLinks");
         function showMenu(){
             navLinks.style.right = "0";
-            navLinks.classList.remove("non-display");
         }
         function hideMenu(){
             navLinks.style.right = "-200px"
-            navLinks.classList.add("non-display");
         }
     </script>
 </body>
